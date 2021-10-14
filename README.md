@@ -2,8 +2,6 @@
 
 Merhaba,
 
-3. hafta odevini bu zamana kadar neler ogrendiysek, onlarla yapabilirsiniz. Ancak `class` lari kullanamaniz zorunlu oldugunu belirtmek isterim. Odevi 7 Ekim Persembe saat 23:59'a kadar gondermeniz gerekiyor. Bu odevde sizden iki sey istiyorum. Birincisi bir RubyGem'i ve ikincisi ise bu RubyGem'i kullanan bir Ruby projesi.
-
 Odev bi dosyadan olusmali. O dosya icinde bir RubyGem ve o RubyGem'ini kullanan bir Ruby projesi olmali. Ruby projesinin icinde ise istediginiz kadar dosya olabilir o sizin odevi nasil tasarladiginiza bagli ama ben kodu bilgisayarima indirdigim zaman sadece bir Ruby dosyasi calistirmak istiyorum. Yani demek istedigim `$ ruby homework.rb` calistiracagim ve projede neler istedimse yapmasini istiyorum.
 
 ## Odev
@@ -27,8 +25,8 @@ $ ruby auto_record_system.rb
 Burada alacaginiz bilgileri bir `yml` dosyasina yazmanizi istiyorum. Dosyanin icinde yazilacaklar su sekilde olmali
 
 ```
-KEMALETTIN TUGCU - Istanbul - OPEL - 34 AA 1010
-HASAN HUSEYINOGLU - Konya - MERCEDES - 42 AA 0101
+Tom Hardy - Istanbul - OPEL - 34 AA 1010
+Daniel Radcliffe - Konya - MERCEDES - 42 AA 0101
 JENIFER LOPEZ - ORDU - RENOAULT - 52 AB 4444
 ```
 
@@ -66,27 +64,7 @@ $ ruby auto_record.rb -s '34 AA 1010'
 #=> 34 AA 1010 plakali arac sistemde yok.
 
 $ ruby auto_record.rb -s '34 AA 1010'
-#=> KEMALETTIN TUGCU - Istanbul - OPEL - 34 AA 1010
+#=> Tom Hardy - Istanbul - OPEL - 34 AA 1010
 
 ```
 
-## Adim adim yapilacaklar
-
-- Programi calistir.
-- Yukaridaki gibi ciktilari gor.
-
-## Dikkat edilecekler
-
-- Custom bir RubyGem yazilmali.
-- Ruby projesi icinde RubyGem kullanilmali.
-- Class kullanilmali.
-- Programiniz dosya_adi.rb seklinde olmali ve console'da ruby dosya_adi.rb diyince calismali. Calismayan programlarin neden calismadigina bakilmayacaktir.
-- Bu zamana kadar gordugumuz tum konulari kullanabilirsiniz. Fazlasini istemiyorum.
-- Kodun icine comment yazmayin. Eger kodunuz anlatamiyorsa yaptiginizi daha acik yazin kodunuzu.
-- Turkce degiskenler vs kullanmayin.
-- Kod okunabilirligi ve degisken adlari onemli. x = 5 gibi degisken adlarini lutfen kullanmayin.
-- Ciktilar odevde yazdigi gibi olmali. Baska dilde ya da kendiniz degistirerek yazmayiniz.
-
-## Son teslim
-
-- Persembe gunu saat 23:59'dan sonra commit'lenen odevler gecersiz sayilacaktir.
